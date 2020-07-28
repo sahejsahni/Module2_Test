@@ -1,0 +1,62 @@
+* { margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 40px;
+}
+
+.card {
+	float:left;
+	width: 29.33%;
+	margin: 2%;
+	border: 2px solid;
+	border-radius: 8px;
+	border-color: grey;
+	background-color: #999999;
+}
+.label {
+	background-color:grey;
+	padding: 12px;
+	display: inline-block;
+	float: right;
+	border-radius: 5px;
+	color: white;
+}
+.bodytext {
+	margin: 20px;
+	margin-top: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#card1 {
+		width: 46%;
+	}
+
+	#card2 {
+		width: 46%;
+	}
+
+	#card3 {
+		width: 96%;
+	}
+}
+
+@media (max-width: 767px) {
+
+	#card1 {
+		width: 96%;
+	}
+
+	#card2 {
+		width: 96%;
+	}
+
+	#card3 {
+		width: 96%;
+	}
+}
